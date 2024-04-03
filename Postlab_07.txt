@@ -1,0 +1,6 @@
+Alex Leavitt
+ECE 5780
+Postlab 07
+
+1. I used a proportional gain of 10 and an integral gain of 5. Increasing the proportional gain causes the motor to speed up faster, but also leads to it being less precise when reaching the target.
+Increasing the integral gain reduces the steady-state error and helps to close the gap, but leads to more oscillations in speed. 
