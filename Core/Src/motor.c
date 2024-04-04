@@ -210,9 +210,9 @@ void PI_update(void) {
      
      /// TODO: Clamp the output value between 0 and 100 
 		 if(output < 0)
-			error_integral = 0;
+			output = 0;
 		else if(output > 100)
-			error_integral = 100;
+			output = 100;
     
     pwm_setDutyCycle(output);
     duty_cycle = output;            // For debug viewing
